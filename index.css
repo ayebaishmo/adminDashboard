@@ -1,3 +1,7 @@
+* {
+ box-sizing: border-box;
+}
+
 body {
  background-color: #e2e8f0;
  padding: 0;
@@ -5,67 +9,36 @@ body {
  height: 100%;
 }
 
-main {
- background-color: red;
- height: 100%;
- position: absolute;
- top: 0;
- right: 0;
- bottom: 0;
- left: 0;
-
-}
-
 .griditems1 {
  grid-area: sideMenu;
- background-color: #2563eb;
- width: 190px;
 }
 
 .griditems2 {
  grid-area: profile;
- background-color: white;
- width: 1056px;
- height: 120px;
 }
 
 .griditems3 {
  grid-area: projects;
- background-color: pink;
- height: 385px;
- width: 800px;
 }
 
 .griditems4 {
  grid-area: annoucements;
- background-color: green;
- height: 385px;
- width: 195px;
 }
 
 .contDash {
  display: grid;
  grid-template-areas: 'sideMenu profile profile profile' 'sideMenu projects projects annoucements' 'sideMenu projects projects annoucements';
+ background-color: #2196F3;
+ gap: 10px;
+ padding: 10px;
  position: absolute;
- height: 100%;
+ top: 0;
+ right: 0;
+ left: 0;
+ bottom: 0;
 }
 
 .contDash >div {
- text-align: center;
- padding: 30px;
- font-size: 30px;
-}
-
-.nav {
- display: flex;
- flex-direction: column;
- list-style-type: none;
- align-items: flex-start;
- margin-left: -50px;
-}
-
-.navItems {
- font-size: 20px;
- color: white;
- margin-bottom: 10px;
+ background-color: rgba(255, 255, 255, 0.8);
+ padding: 90px;
 }
