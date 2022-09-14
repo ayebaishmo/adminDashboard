@@ -1,0 +1,22 @@
+{
+  "name": "admindashboard",
+  "version": "1.0.0",
+  "description": "An assignment for admin dashboard to test grid and flex skills in css",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ayebaishmo/adminDashboard.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ayebaishmo/adminDashboard/issues"
+  },
+  "homepage": "https://github.com/ayebaishmo/adminDashboard#readme",
+  "dependencies": {
+    "@mdi/font": "^7.0.96"
+  }
+}

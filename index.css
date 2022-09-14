@@ -2,6 +2,10 @@
  box-sizing: border-box;
 }
 
+.navItems {
+ list-style-type: none;
+}
+
 body {
  background-color: #e2e8f0;
 }
@@ -147,4 +151,5 @@ button {
  background-color: blue;
  border-color: blue;
  color: white;
+ justify-content: center;
 }
