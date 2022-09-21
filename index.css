@@ -22,10 +22,12 @@ body {
  grid-area: profile;
  height: 200px;
  background-color: white;
+ margin-left: -65px;
 }
 
 .griditems3 {
  grid-area: projects;
+ margin-top: -10px;
 }
 
 .griditems4 {
@@ -82,11 +84,16 @@ main {
  display: flex;
  align-content: center;
  gap: 20px;
- background-color: red;
+ margin-top: 30px;
+ margin-left: 20px;
 }
 
-.pro >div {
- flex-shrink: 3;
+.hi {
+  margin-top: -14px;
+}
+
+.go {
+  margin-top: -10px;
 }
 
 .ann {
@@ -144,8 +151,8 @@ main {
 
 input {
  border-radius: 5px;
- border-color: white;
  width: 450px;
+ background-color: #cbd5e1;
 }
 
 button {
